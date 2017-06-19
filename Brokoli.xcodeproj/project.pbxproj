@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396BFF65A9FBF6149687ABCE /* Pods_Brokoli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5333ADFE7E03ADA757ECC54A /* Pods_Brokoli.framework */; };
+		550F9ADC1EF7124D00FBF32F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 550F9ADE1EF7124D00FBF32F /* InfoPlist.strings */; };
+		551B032B1EF43D360036341C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551B032A1EF43D360036341C /* AppDelegate.swift */; };
+		551B03321EF43D360036341C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551B03311EF43D360036341C /* Assets.xcassets */; };
+		551B03351EF43D360036341C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551B03331EF43D360036341C /* LaunchScreen.storyboard */; };
+		551B03401EF43D360036341C /* BrokoliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551B033F1EF43D360036341C /* BrokoliTests.swift */; };
+		558C90391EF6D9BB00A74B56 /* BRKManufacturersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C90371EF6D9BB00A74B56 /* BRKManufacturersViewController.swift */; };
+		558C903A1EF6D9BB00A74B56 /* BRKTipoSeguroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C90381EF6D9BB00A74B56 /* BRKTipoSeguroViewController.swift */; };
+		558C903C1EF6DD9900A74B56 /* BRKModelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C903B1EF6DD9900A74B56 /* BRKModelsViewController.swift */; };
+		559352E81EF4409F0077C1F8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 559352EA1EF4409F0077C1F8 /* Localizable.strings */; };
+		559352EC1EF4410E0077C1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559352EB1EF4410E0077C1F8 /* Main.storyboard */; };
+		55B819D41EF571F6002F9A50 /* BRKConfiguracio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B819D11EF571F5002F9A50 /* BRKConfiguracio.swift */; };
+		55B819D51EF571F6002F9A50 /* BRKUtilitats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B819D21EF571F5002F9A50 /* BRKUtilitats.swift */; };
+		55B819D61EF571F6002F9A50 /* Configuracio.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55B819D31EF571F5002F9A50 /* Configuracio.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		551B033C1EF43D360036341C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551B031F1EF43D360036341C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551B03261EF43D360036341C;
+			remoteInfo = Brokoli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5333ADFE7E03ADA757ECC54A /* Pods_Brokoli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brokoli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550F9ADD1EF7124D00FBF32F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		550F9ADF1EF7125000FBF32F /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		551B03271EF43D360036341C /* Brokoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brokoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		551B032A1EF43D360036341C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		551B03311EF43D360036341C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		551B03361EF43D360036341C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		551B033B1EF43D360036341C /* BrokoliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokoliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		551B033F1EF43D360036341C /* BrokoliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokoliTests.swift; sourceTree = "<group>"; };
+		551B03411EF43D360036341C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558C90371EF6D9BB00A74B56 /* BRKManufacturersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRKManufacturersViewController.swift; sourceTree = "<group>"; };
+		558C90381EF6D9BB00A74B56 /* BRKTipoSeguroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRKTipoSeguroViewController.swift; sourceTree = "<group>"; };
+		558C903B1EF6DD9900A74B56 /* BRKModelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRKModelsViewController.swift; sourceTree = "<group>"; };
+		559352EB1EF4410E0077C1F8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		559352EF1EF443820077C1F8 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		559352F01EF443820077C1F8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		559352F21EF443A70077C1F8 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		559352F31EF443A70077C1F8 /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ca; path = ca.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55B819D11EF571F5002F9A50 /* BRKConfiguracio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRKConfiguracio.swift; sourceTree = "<group>"; };
+		55B819D21EF571F5002F9A50 /* BRKUtilitats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRKUtilitats.swift; sourceTree = "<group>"; };
+		55B819D31EF571F5002F9A50 /* Configuracio.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuracio.plist; sourceTree = "<group>"; };
+		62CDAC0C883108B9B5DFD4FE /* Pods-Brokoli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brokoli.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli.debug.xcconfig"; sourceTree = "<group>"; };
+		97986BD6633D4DCAB1693C0E /* Pods-Brokoli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brokoli.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551B03241EF43D360036341C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396BFF65A9FBF6149687ABCE /* Pods_Brokoli.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551B03381EF43D360036341C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551B031E1EF43D360036341C = {
+			isa = PBXGroup;
+			children = (
+				551B03291EF43D360036341C /* Brokoli */,
+				551B033E1EF43D360036341C /* BrokoliTests */,
+				551B03281EF43D360036341C /* Products */,
+				ABF99729A7BC371D064FEB1D /* Pods */,
+				ACA7B37E966D0DC894839B6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		551B03281EF43D360036341C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				551B03271EF43D360036341C /* Brokoli.app */,
+				551B033B1EF43D360036341C /* BrokoliTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		551B03291EF43D360036341C /* Brokoli */ = {
+			isa = PBXGroup;
+			children = (
+				551B032A1EF43D360036341C /* AppDelegate.swift */,
+				559352EB1EF4410E0077C1F8 /* Main.storyboard */,
+				55B819D01EF571F5002F9A50 /* Utilitats */,
+				559352F11EF4438E0077C1F8 /* Localization */,
+				558C90361EF6D9BB00A74B56 /* ViewControllers */,
+				551B03311EF43D360036341C /* Assets.xcassets */,
+			);
+			path = Brokoli;
+			sourceTree = "<group>";
+		};
+		551B033E1EF43D360036341C /* BrokoliTests */ = {
+			isa = PBXGroup;
+			children = (
+				551B033F1EF43D360036341C /* BrokoliTests.swift */,
+				551B03411EF43D360036341C /* Info.plist */,
+			);
+			path = BrokoliTests;
+			sourceTree = "<group>";
+		};
+		558C90361EF6D9BB00A74B56 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				558C90381EF6D9BB00A74B56 /* BRKTipoSeguroViewController.swift */,
+				558C90371EF6D9BB00A74B56 /* BRKManufacturersViewController.swift */,
+				558C903B1EF6DD9900A74B56 /* BRKModelsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		559352F11EF4438E0077C1F8 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				551B03331EF43D360036341C /* LaunchScreen.storyboard */,
+				559352EA1EF4409F0077C1F8 /* Localizable.strings */,
+				550F9ADE1EF7124D00FBF32F /* InfoPlist.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		55B819D01EF571F5002F9A50 /* Utilitats */ = {
+			isa = PBXGroup;
+			children = (
+				551B03361EF43D360036341C /* Info.plist */,
+				55B819D31EF571F5002F9A50 /* Configuracio.plist */,
+				55B819D11EF571F5002F9A50 /* BRKConfiguracio.swift */,
+				55B819D21EF571F5002F9A50 /* BRKUtilitats.swift */,
+			);
+			path = Utilitats;
+			sourceTree = "<group>";
+		};
+		ABF99729A7BC371D064FEB1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62CDAC0C883108B9B5DFD4FE /* Pods-Brokoli.debug.xcconfig */,
+				97986BD6633D4DCAB1693C0E /* Pods-Brokoli.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACA7B37E966D0DC894839B6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5333ADFE7E03ADA757ECC54A /* Pods_Brokoli.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		551B03261EF43D360036341C /* Brokoli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551B03441EF43D360036341C /* Build configuration list for PBXNativeTarget "Brokoli" */;
+			buildPhases = (
+				C30AADA8FC5458677DEC24DC /* [CP] Check Pods Manifest.lock */,
+				551B03231EF43D360036341C /* Sources */,
+				551B03241EF43D360036341C /* Frameworks */,
+				551B03251EF43D360036341C /* Resources */,
+				7189C4D0241E9BB513032B66 /* [CP] Embed Pods Frameworks */,
+				965916513334109EB3636125 /* [CP] Copy Pods Resources */,
+				55B819CF1EF56590002F9A50 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brokoli;
+			productName = Brokoli;
+			productReference = 551B03271EF43D360036341C /* Brokoli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		551B033A1EF43D360036341C /* BrokoliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551B03471EF43D360036341C /* Build configuration list for PBXNativeTarget "BrokoliTests" */;
+			buildPhases = (
+				551B03371EF43D360036341C /* Sources */,
+				551B03381EF43D360036341C /* Frameworks */,
+				551B03391EF43D360036341C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551B033D1EF43D360036341C /* PBXTargetDependency */,
+			);
+			name = BrokoliTests;
+			productName = BrokoliTests;
+			productReference = 551B033B1EF43D360036341C /* BrokoliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551B031F1EF43D360036341C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Asilisoft;
+				TargetAttributes = {
+					551B03261EF43D360036341C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 338R5ZP3US;
+						ProvisioningStyle = Automatic;
+					};
+					551B033A1EF43D360036341C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 551B03261EF43D360036341C;
+					};
+				};
+			};
+			buildConfigurationList = 551B03221EF43D360036341C /* Build configuration list for PBXProject "Brokoli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				es,
+				ca,
+			);
+			mainGroup = 551B031E1EF43D360036341C;
+			productRefGroup = 551B03281EF43D360036341C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				551B03261EF43D360036341C /* Brokoli */,
+				551B033A1EF43D360036341C /* BrokoliTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		551B03251EF43D360036341C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551B03351EF43D360036341C /* LaunchScreen.storyboard in Resources */,
+				550F9ADC1EF7124D00FBF32F /* InfoPlist.strings in Resources */,
+				559352E81EF4409F0077C1F8 /* Localizable.strings in Resources */,
+				551B03321EF43D360036341C /* Assets.xcassets in Resources */,
+				55B819D61EF571F6002F9A50 /* Configuracio.plist in Resources */,
+				559352EC1EF4410E0077C1F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551B03391EF43D360036341C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55B819CF1EF56590002F9A50 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\n\nERRORTAG=\"ERROR:\"\n\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" -type f \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$|($ERRORTAG).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\" | perl -p -e \"s/($ERRORTAG)/ error: \\$1/\"";
+		};
+		7189C4D0241E9BB513032B66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		965916513334109EB3636125 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C30AADA8FC5458677DEC24DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		551B03231EF43D360036341C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558C903C1EF6DD9900A74B56 /* BRKModelsViewController.swift in Sources */,
+				558C903A1EF6D9BB00A74B56 /* BRKTipoSeguroViewController.swift in Sources */,
+				55B819D41EF571F6002F9A50 /* BRKConfiguracio.swift in Sources */,
+				558C90391EF6D9BB00A74B56 /* BRKManufacturersViewController.swift in Sources */,
+				551B032B1EF43D360036341C /* AppDelegate.swift in Sources */,
+				55B819D51EF571F6002F9A50 /* BRKUtilitats.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551B03371EF43D360036341C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551B03401EF43D360036341C /* BrokoliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		551B033D1EF43D360036341C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551B03261EF43D360036341C /* Brokoli */;
+			targetProxy = 551B033C1EF43D360036341C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		550F9ADE1EF7124D00FBF32F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550F9ADD1EF7124D00FBF32F /* es */,
+				550F9ADF1EF7125000FBF32F /* ca */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		551B03331EF43D360036341C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559352EF1EF443820077C1F8 /* es */,
+				559352F31EF443A70077C1F8 /* ca */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		559352EA1EF4409F0077C1F8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559352F01EF443820077C1F8 /* es */,
+				559352F21EF443A70077C1F8 /* ca */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		551B03421EF43D360036341C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		551B03431EF43D360036341C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551B03451EF43D360036341C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CDAC0C883108B9B5DFD4FE /* Pods-Brokoli.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 338R5ZP3US;
+				INFOPLIST_FILE = Brokoli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asilisoft.Brokoli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		551B03461EF43D360036341C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97986BD6633D4DCAB1693C0E /* Pods-Brokoli.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 338R5ZP3US;
+				INFOPLIST_FILE = Brokoli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asilisoft.Brokoli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		551B03481EF43D360036341C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrokoliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asilisoft.BrokoliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brokoli.app/Brokoli";
+			};
+			name = Debug;
+		};
+		551B03491EF43D360036341C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrokoliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asilisoft.BrokoliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brokoli.app/Brokoli";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		551B03221EF43D360036341C /* Build configuration list for PBXProject "Brokoli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551B03421EF43D360036341C /* Debug */,
+				551B03431EF43D360036341C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551B03441EF43D360036341C /* Build configuration list for PBXNativeTarget "Brokoli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551B03451EF43D360036341C /* Debug */,
+				551B03461EF43D360036341C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551B03471EF43D360036341C /* Build configuration list for PBXNativeTarget "BrokoliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551B03481EF43D360036341C /* Debug */,
+				551B03491EF43D360036341C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 551B031F1EF43D360036341C /* Project object */;
+}

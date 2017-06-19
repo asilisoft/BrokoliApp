@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Brokoli
+
+  Created by Sergi Ranís i Nebot on 18/6/17.
+  Copyright © 2017 Asilisoft. All rights reserved.
+*/
+
+"NSCameraUsageDescription"      = "La app necesita acceder a la cámara.";

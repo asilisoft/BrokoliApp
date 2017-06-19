@@ -1,0 +1,122 @@
+Pods/Manifest.lock
+Pods/Alamofire/LICENSE
+Pods/Alamofire/README.md
+Pods/Alamofire/Source/AFError.swift
+Pods/Alamofire/Source/Alamofire.swift
+Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+Pods/Alamofire/Source/MultipartFormData.swift
+Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Pods/Alamofire/Source/Notifications.swift
+Pods/Alamofire/Source/ParameterEncoding.swift
+Pods/Alamofire/Source/Request.swift
+Pods/Alamofire/Source/Response.swift
+Pods/Alamofire/Source/ResponseSerialization.swift
+Pods/Alamofire/Source/Result.swift
+Pods/Alamofire/Source/ServerTrustPolicy.swift
+Pods/Alamofire/Source/SessionDelegate.swift
+Pods/Alamofire/Source/SessionManager.swift
+Pods/Alamofire/Source/TaskDelegate.swift
+Pods/Alamofire/Source/Timeline.swift
+Pods/Alamofire/Source/Validation.swift
+Pods/Cloudinary/LICENCE
+Pods/Cloudinary/README.md
+Pods/Cloudinary/Cloudinary/CLDCloudinary.swift
+Pods/Cloudinary/Cloudinary/CLDConfiguration.swift
+Pods/Cloudinary/Cloudinary/Features/Downloader/CLDDownloader.swift
+Pods/Cloudinary/Cloudinary/Features/Extensions/UIButton+Cloudinary.swift
+Pods/Cloudinary/Cloudinary/Features/Extensions/UIImageView+Cloudinary.swift
+Pods/Cloudinary/Cloudinary/Features/Extensions/UIView+Cloudinary.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/CLDBaseNetworkObject.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/CLDDefinitions.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/CLDTranformation.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Layers/CLDLayer.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Layers/CLDSubtitlesLayer.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Layers/CLDTextLayer.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/RequestParams/CLDRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/RequestParams/Helpers/CLDRequestParamsHelpers.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Requests/CLDRequest.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Results/CLDBaseResult.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Results/Helpers/CLDBoundingBox.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Results/Helpers/CLDDetection.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Results/Helpers/CLDFace.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Results/Helpers/CLDInfo.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Results/Helpers/CLDRekognitionFace.swift
+Pods/Cloudinary/Cloudinary/Features/Helpers/Results/Helpers/CommonResultKeys.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/CLDManagementApi.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Requests/CLDDeleteRequest.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Requests/CLDExplicitRequest.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Requests/CLDExplodeRequest.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Requests/CLDMultiRequest.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Requests/CLDRenameRequest.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Requests/CLDSpriteRequest.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Requests/CLDTagRequest.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Requests/CLDTextRequest.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/RequestsParams/CLDDeleteByTokenRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/RequestsParams/CLDDestroyRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/RequestsParams/CLDExplicitRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/RequestsParams/CLDExplodeRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/RequestsParams/CLDMultiRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/RequestsParams/CLDRenameRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/RequestsParams/CLDSpriteRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/RequestsParams/CLDTagsRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/RequestsParams/CLDTextRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Results/CLDDeleteResult.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Results/CLDExplicitResult.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Results/CLDExplodeResult.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Results/CLDMultiResult.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Results/CLDRenameResult.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Results/CLDSpriteResult.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Results/CLDTagResult.swift
+Pods/Cloudinary/Cloudinary/Features/ManagementApi/Results/CLDTextResult.swift
+Pods/Cloudinary/Cloudinary/Features/Uploader/CLDUploader.swift
+Pods/Cloudinary/Cloudinary/Features/Uploader/RequestParams/CLDUploadRequestParams.swift
+Pods/Cloudinary/Cloudinary/Features/Uploader/Requests/CLDUploadRequest.swift
+Pods/Cloudinary/Cloudinary/Features/Uploader/Results/CLDUploadResult.swift
+Pods/Cloudinary/Cloudinary/Features/Url/CLDUrl.swift
+Pods/Cloudinary/Cloudinary/Frameworks/CLDCrypto/iphoneos/CLDCrypto.framework/module.map
+Pods/Cloudinary/Cloudinary/Frameworks/CLDCrypto/iphonesimulator/CLDCrypto.framework/module.map
+Pods/Cloudinary/Cloudinary/Network/CLDNetworkCoordinator.swift
+Pods/Cloudinary/Cloudinary/Network/CLDNetworkDelegate.swift
+Pods/Cloudinary/Cloudinary/Network/Adapter/CLDNetworkAdapter.swift
+Pods/Cloudinary/Cloudinary/Network/NetworkRequest/CLDAsyncNetworkUploadRequest.swift
+Pods/Cloudinary/Cloudinary/Network/NetworkRequest/CLDErrorRequest.swift
+Pods/Cloudinary/Cloudinary/Network/NetworkRequest/CLDFetchImageRequestImpl.swift
+Pods/Cloudinary/Cloudinary/Network/NetworkRequest/CLDGenericNetworkRequest.swift
+Pods/Cloudinary/Cloudinary/Network/NetworkRequest/CLDNetworkDataRequestImpl.swift
+Pods/Cloudinary/Cloudinary/Network/NetworkRequest/CLDNetworkDownloadRequest.swift
+Pods/Cloudinary/Cloudinary/Network/NetworkRequest/CLDNetworkUploadRequest.swift
+Pods/Cloudinary/Cloudinary/Utils/CLDBuildParamsUtils.swift
+Pods/Cloudinary/Cloudinary/Utils/CLDCryptoUtils.swift
+Pods/Cloudinary/Cloudinary/Utils/CLDDictionaryUtils.swift
+Pods/Cloudinary/Cloudinary/Utils/CLDError.swift
+Pods/Cloudinary/Cloudinary/Utils/CLDImageCache.swift
+Pods/Cloudinary/Cloudinary/Utils/CLDImageUtils.swift
+Pods/Cloudinary/Cloudinary/Utils/CLDLogManager.swift
+Pods/Cloudinary/Cloudinary/Utils/CLDStringUtils.swift
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Pods.xcodeproj/xcuserdata/sergi.xcuserdatad/xcschemes/Alamofire.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/sergi.xcuserdatad/xcschemes/Cloudinary.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/sergi.xcuserdatad/xcschemes/Pods-Brokoli.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/sergi.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Pods/Target Support Files/Alamofire/Alamofire.xcconfig
+Pods/Target Support Files/Alamofire/Info.plist
+Pods/Target Support Files/Cloudinary/Cloudinary-dummy.m
+Pods/Target Support Files/Cloudinary/Cloudinary-prefix.pch
+Pods/Target Support Files/Cloudinary/Cloudinary-umbrella.h
+Pods/Target Support Files/Cloudinary/Cloudinary.modulemap
+Pods/Target Support Files/Cloudinary/Cloudinary.xcconfig
+Pods/Target Support Files/Cloudinary/Info.plist
+Pods/Target Support Files/Pods-Brokoli/Info.plist
+Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli-acknowledgements.markdown
+Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli-acknowledgements.plist
+Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli-dummy.m
+Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli-frameworks.sh
+Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli-resources.sh
+Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli-umbrella.h
+Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli.debug.xcconfig
+Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli.modulemap
+Pods/Target Support Files/Pods-Brokoli/Pods-Brokoli.release.xcconfig

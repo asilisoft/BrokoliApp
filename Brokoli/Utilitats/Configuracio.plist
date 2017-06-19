@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>COLOR_PRINCIPAL</key>
+	<string>#16B0A6</string>
+	<key>COLOR_TEXT_SOBRE_PRINCIPAL</key>
+	<string>#FFFFFF</string>
+	<key>COLOR_NAVBAR_FONS</key>
+	<string>#E5E5E5</string>
+	<key>COLOR_NAVBAR_TEXT</key>
+	<string>#000000</string>
+	<key>URL_MANUFACTURERS</key>
+	<string>https://staging.brokoliapp.com/api/v1/automobile/manufacturers</string>
+	<key>URL_MANUFACTURERS_MODELS</key>
+	<string>https://staging.brokoliapp.com/api/v1/automobile/manufacturers/{manufacturerId}/models</string>
+	<key>CLOUDINARY_API_KEY</key>
+	<string>283598263565395</string>
+	<key>CLOUDINARY_API_SECRET</key>
+	<string>GCOlbF2n_ZqlypiATpNXBT39VIc</string>
+	<key>CLOUDINARY_CLOUD_NAME</key>
+	<string>mtowers</string>
+	<key>CLOUDINARY_MANUFACTURERS_LOGOS_FOLDER</key>
+	<string>cars</string>
+	<key>CLOUDINARY_UPLOAD_FOLDER</key>
+	<string>sergi</string>
+</dict>
+</plist>

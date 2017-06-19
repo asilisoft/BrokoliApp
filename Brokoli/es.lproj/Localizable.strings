@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  Brokoli
+
+  Created by Sergi Ranís i Nebot on 16/6/17.
+  Copyright © 2017 Asilisoft. All rights reserved.
+*/
+
+"general_informacion"       = "Información";
+"general_reintentar"        = "No podemos realizar la operación en estos momentos, inténtalo más tarde.";
+"general_continuar"         = "Continuar";
+
+"error_no_camera"           = "Este dispositivo no tiene cámara.";
+"error_pujar_foto"          = "No se ha podido subir la foto. Inténtalo más tarde.";
+
+"tipo_seguro_header"        = "BROKOLI";
+"tipo_seguro_pregunta"      = "¿Qué tipo de seguro necesitas?";
+"tipo_seguro_publi"         = "Autoriza a Brokoli a ser tu gestor de seguros y ahorra hasta un 40% en la renovación de tu póliza";
+"tipo_seguro_coche"         = "Coche";
+"tipo_seguro_vida"          = "Vida";
+"tipo_seguro_salud"         = "Salud";
+"tipo_seguro_hogar"         = "Hogar";
+"tipo_seguro_mascotas"      = "Mascotas";
+"tipo_seguro_otros"         = "Otros";
+
+"manufac_buscar"            = "Buscar";
+
+"models_no_camera"          = "Otorga el permiso a la cámara, desde Ajustes->Privacidad->Cámara, para poder subir la fotografía";
+"models_pujada_ok"          = "La imagen se ha subido correctamente.";
